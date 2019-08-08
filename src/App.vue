@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <Game />
+    <sui-container>
+      <Game />
+    </sui-container>
   </div>
 </template>
 
