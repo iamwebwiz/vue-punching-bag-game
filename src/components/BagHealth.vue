@@ -1,13 +1,13 @@
 <template>
   <div>
-    <sui-progress :state="state" :percent="percent" progress />
+    <sui-progress :state="state" :percent="health" progress />
   </div>
 </template>
 
 <script>
   export default {
     name: "BagHealth",
-    props: ["percent", "state"]
+    props: ["health", "state"]
   };
 </script>
 
